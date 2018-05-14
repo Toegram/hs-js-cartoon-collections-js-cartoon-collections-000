@@ -26,14 +26,11 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese(foods) {
-   let cheeseList = [];
-   let iHazCheese = ["cheddar", "gouda"]
-    for (let i = 0; i < foods.length; i++) {
-      for (let j = 0; j < iHazCheese.length; j++) {
-        if (foods[i] === iHazCheese[j]) {
-          cheeselist.push(foods[i])
-      } 
-    }
-  } 
-  return cheeseList; 
-} 
+  let cheeseList = []
+  let iHazCheese = ["cheddar"]
+    for (let i = 0; i < foods.length; i++)
+      if (foods[i] === iHazCheese[j]) {
+        cheeseList.push(foods[i])
+      }
+        return cheeseList;
+}        
